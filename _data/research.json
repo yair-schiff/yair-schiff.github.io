@@ -4,7 +4,8 @@
     "content": [
       {
         "title": "Simple Guidance Mechanisms for Discrete Diffusion Models",
-        "authors": ["Yair Schiff", "Subham Sekhar Sahoo", "Guanghan Wang", "Hao Phung", "Sam Boshar", "Hugo Dalla-torre", "Bernardo P de Almeida", "Alexander Rush", "Thomas Pierrot", "Volodymyr Kuleshov"],
+        "authors": ["Yair Schiff*", "Subham Sekhar Sahoo*", "Guanghan Wang*", "Hao Phung*", "Sam Boshar", "Hugo Dalla-torre", "Bernardo P de Almeida", "Alexander Rush", "Thomas Pierrot", "Volodymyr Kuleshov"],
+        "author_comments": "*equal contribution",
         "venue": "ICLR 2025",
         "url": "https://arxiv.org/abs/2412.10193",
         "code": "https://github.com/kuleshov-group/discrete-diffusion-guidance",
