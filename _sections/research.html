@@ -23,7 +23,7 @@ order: 1
         {% for author in pub.authors %}
           {% if author contains "Yair Schiff" %}<b style="font-weight:600">{{ author }}</b>{% else %}{{ author }}{% endif %}{% if forloop.last %}{% else %},{% endif %}
         {% endfor %}
-        {%if pub.author_comments %}({{ pub.author_comments }}){% endif %}
+        {%if pub.author_comments %}<br><font size="3">({{ pub.author_comments }})</font>{% endif %}
         <br>
         {% if pub.venue %}
           <i>
