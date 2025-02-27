@@ -21,11 +21,14 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
+  font-size: 1.25em;
   font-style: normal;
   font-variant: normal;
   text-rendering: auto;
+  text-decoration: none;
   line-height: 1;
 }
+.ai > .label { display: none; }
 .ai-academia:before {
   content: "\e9af";
 }
@@ -560,4 +563,15 @@ border-radius: .1em;
 }
 .ai-inverse {
   color: #fff;
+}
+.hf-icon {
+  text-decoration: none;
+  display: inline-block;
+  filter: grayscale(1);
+  width: 1.25em;
+  height: auto;
+  line-height: 1;
+}
+.hf-icon-label {
+  display: none;
 }
