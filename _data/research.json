@@ -131,6 +131,16 @@
     "type": "Workshops",
     "content": [
       {
+        "title": "Remasking Discrete Diffusion Models with Inference-Time Scaling",
+        "authors": ["Guanghan Wang*", "Yair Schiff*", "Subham Sekhar Sahoo", "Volodymyr Kuleshov"],
+        "author_comments": "*equal contribution",
+        "venue": "DeLTa Workshop ICLR 2025",
+        "venue_url": "https://delta-workshop.github.io/",
+        "url": "https://arxiv.org/abs/2503.00307",
+        "site": "https://remdm.github.io/",
+        "code": "https://github.com/kuleshov-group/remdm"
+      },
+      {
         "title": "Advancing DNA Language Models: The Genomics Long-Range Benchmark",
         "authors": ["Evan Trop", "Chia-Hsiang Kao", "Mckinley Polen", "Yair Schiff", "Bernardo P. de Almeida", "Aaron Gokaslan", "Thomas Pierrot", "Volodymyr Kuleshov"],
         "venue": "<a href=\"https://llms4science-community.github.io/aaai2024.html\" target=\"_blank\">LLMs4Bio AAAI Workshop 2024,</a>&nbsp;&nbsp;<a href=\"https://mlgenx.github.io/\" target=\"_blank\">MLGenX ICLR Workshop 2024</a>",
