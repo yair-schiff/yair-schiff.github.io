@@ -3,6 +3,13 @@
     "type": "Publications",
     "content": [
       {
+        "title": "Cross-species plant genomes modeling at single nucleotide resolution using a pre-trained DNA language model",
+        "authors": ["Jingjing Zhai", "Aaron Gokaslan", "Yair Schiff", "Ana Berthel", "Zong-Yan Liu", "Zachary R Miller",  "Armin Scheben",  "Michelle C Stitzer", "Cinta Romay", "Edward S. Buckler", "Volodymyr Kuleshov"],
+        "venue": "PNAS",
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2421738122",
+        "site": "https://plantcaduceus.github.io/"
+      },
+      {
         "title": "Simple Guidance Mechanisms for Discrete Diffusion Models",
         "authors": ["Yair Schiff*", "Subham Sekhar Sahoo*", "Guanghan Wang*", "Hao Phung*", "Sam Boshar", "Hugo Dalla-torre", "Bernardo P de Almeida", "Alexander Rush", "Thomas Pierrot", "Volodymyr Kuleshov"],
         "author_comments": "*equal contribution",
@@ -172,17 +179,6 @@
         "venue_url": "https://vizwiz.org/workshops/2020-workshop",
         "url": "https://arxiv.org/abs/2012.11691",
         "slides": "assets/pub_content/alleviating_slides.pdf"
-      }
-    ]
-  },
-  {
-    "type": "Preprints",
-    "content": [
-      {
-        "title": "Cross-species plant genomes modeling at single nucleotide resolution using a pre-trained DNA language model",
-        "authors": ["Jingjing Zhai", "Aaron Gokaslan", "Yair Schiff", "Ana Berthel", "Zong-Yan Liu", "Zachary R Miller",  "Armin Scheben",  "Michelle C Stitzer", "Cinta Romay", "Edward S. Buckler", "Volodymyr Kuleshov"],
-        "url": "https://www.biorxiv.org/content/10.1101/2024.06.04.596709v1",
-        "site": "https://plantcaduceus.github.io/"
       }
     ]
   }
