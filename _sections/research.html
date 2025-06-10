@@ -32,7 +32,7 @@ order: 1
             {% else %}
               {{ pub.venue }}
             {% endif %}
-            {% if pub.venue_comments %}, {{ pub.venue_comments }}{% endif %}
+            {% if pub.venue_comments %}, <b style="font-weight:600; color:#ab162c">{{ pub.venue_comments }}</b>{% endif %}
           </i>
           <br>
         {% endif %}        

@@ -32,6 +32,7 @@
         "title": "Auditing and Generating Synthetic Data with Controllable Trust Trade-offs",
         "authors": ["Brian Belgodere", "Pierre Dognin", "Adam Ivankay", "Igor Melnyk", "Youssef Mroueh", "Aleksandra Mojsilovic", "Jiri Navartil", "Apoorva Nitsure", "Inkit Padhi", "Mattia Rigotti", "Jerret Ross", "Yair Schiff", "Radhika Vedpathak", "Richard A. Young"],
         "venue": "IEEE Journal on Emerging and Selected Topics in Circuits and Systems",
+        "venue_comments": "Best Paper Award",
         "url": "https://arxiv.org/abs/2304.10819"
       },
       {
@@ -96,7 +97,8 @@
       {
         "title": "Optimizing Functionals on the Space of Probabilities with Input Convex Neural Networks",
         "authors": ["David Alvarez-Melis", "Yair Schiff", "Youssef Mroueh"],
-        "venue": "Transactions of Machine Learning Research<br><a href=\"https://otml2021.github.io\" target=\"_blank\">OTML NeurIPS Workshop 2021</a>, Spotlight presentation",
+        "venue": "Transactions of Machine Learning Research<br><a href=\"https://otml2021.github.io\" target=\"_blank\">OTML NeurIPS Workshop 2021</a>",
+        "venue_comments": "Spotlight presentation",
         "url": "https://openreview.net/forum?id=dpOYN7o8Jm",
         "video": "https://slideslive.com/38973475/optimizing-functionals-on-the-space-of-probabilities-with-input-convex-neural-network?ref=speaker-17618-latest",
         "slides": "assets/pub_content/jkoicnn_slides.pdf",
