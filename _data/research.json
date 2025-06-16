@@ -22,7 +22,8 @@
       {
         "title": "Simple and Effective Masked Diffusion Language Models",
         "authors": ["Subham Sekhar Sahoo", "Marianne Arriola", "Yair Schiff", "Aaron Gokaslan", "Edgar Marroquin", "Justin T Chiu", "Alexander Rush", "Volodymyr Kuleshov"],
-        "venue": "NeurIPS 2024",
+        "venue": "NeurIPS 2024<br><a href=\"https://accml.bio/\" target=\"_blank\">AccMLBio ICML 2024</a>",
+        "venue_comments": "Spotlight presentation",
         "url": "https://arxiv.org/abs/2406.07524",
         "code": "https://github.com/kuleshov-group/mdlm",
         "site": "https://s-sahoo.com/mdlm",
@@ -38,7 +39,8 @@
       {
         "title": "Caduceus: Bi-Directional Equivariant Long-Range DNA Sequence Modeling",
         "authors": ["Yair Schiff", "Chia-Hsiang Kao", "Aaron Gokaslan", "Tri Dao", "Albert Gu", "Volodymyr Kuleshov"],
-        "venue": "ICML 2024",
+        "venue": "ICML 2024<br><a href=\"https://spigmworkshop2024.github.io/\" target=\"_blank\">SPIGM Workshop ICML 2024</a>",
+        "venue_comments": "Oral presentation",
         "url": "https://arxiv.org/abs/2403.03234",
         "code": "https://github.com/kuleshov-group/caduceus",
         "site": "https://caduceus-dna.github.io/",
@@ -180,6 +182,7 @@
         "author_comments": "*equal contribution, alphabetical order",
         "venue": "VizWiz CVPR Workshop 2020",
         "venue_url": "https://vizwiz.org/workshops/2020-workshop",
+        "venue_comments": "1st place submission",
         "url": "https://arxiv.org/abs/2012.11691",
         "slides": "assets/pub_content/alleviating_slides.pdf"
       }
