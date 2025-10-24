@@ -3,6 +3,25 @@
     "type": "Publications",
     "content": [
       {
+        "title": "Encoder-Decoder Diffusion Language Models for Efficient Training and Inference",
+        "authors": ["Marianne Arriola*", "Yair Schiff*", "Hao Phung", "Aaron Gokaslan",  "Volodymyr Kuleshov"],
+        "author_comments": "*equal contribution",
+        "venue": "NeurIPS 2025",
+        "url": "https://yair-schiff.github.io",
+        "code": "https://github.com/kuleshov-group/e2d2",
+        "site": "https://m-arriola.com/e2d2/"
+      },
+      {
+        "title": "Remasking Discrete Diffusion Models with Inference-Time Scaling",
+        "authors": ["Guanghan Wang*", "Yair Schiff*", "Subham Sekhar Sahoo", "Volodymyr Kuleshov"],
+        "author_comments": "*equal contribution",
+        "venue": "NeurIPS 2025<br><a href=\"https://delta-workshop.github.io/\" target=\"_blank\">DeLTa Workshop ICLR 2025</a>",
+        "url": "https://arxiv.org/abs/2503.00307",
+        "site": "https://remdm.github.io/",
+        "code": "https://github.com/kuleshov-group/remdm",
+        "video": "https://www.youtube.com/watch?v=juZA_vdjjv8"
+      },
+      {
         "title": "Cross-species plant genomes modeling at single nucleotide resolution using a pre-trained DNA language model",
         "authors": ["Jingjing Zhai", "Aaron Gokaslan", "Yair Schiff", "Ana Berthel", "Zong-Yan Liu", "Zachary R Miller",  "Armin Scheben",  "Michelle C Stitzer", "Cinta Romay", "Edward S. Buckler", "Volodymyr Kuleshov"],
         "venue": "PNAS",
@@ -143,16 +162,6 @@
   {
     "type": "Workshops",
     "content": [
-      {
-        "title": "Remasking Discrete Diffusion Models with Inference-Time Scaling",
-        "authors": ["Guanghan Wang*", "Yair Schiff*", "Subham Sekhar Sahoo", "Volodymyr Kuleshov"],
-        "author_comments": "*equal contribution",
-        "venue": "DeLTa Workshop ICLR 2025",
-        "venue_url": "https://delta-workshop.github.io/",
-        "url": "https://arxiv.org/abs/2503.00307",
-        "site": "https://remdm.github.io/",
-        "code": "https://github.com/kuleshov-group/remdm"
-      },
       {
         "title": "Advancing DNA Language Models: The Genomics Long-Range Benchmark",
         "authors": ["Evan Trop", "Chia-Hsiang Kao", "Mckinley Polen", "Yair Schiff", "Bernardo P. de Almeida", "Aaron Gokaslan", "Thomas Pierrot", "Volodymyr Kuleshov"],
