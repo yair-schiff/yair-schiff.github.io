@@ -196,5 +196,15 @@
         "slides": "assets/pub_content/alleviating_slides.pdf"
       }
     ]
+  },
+  {
+    "type": "Preprints",
+    "content": [
+      {
+        "title": "d2: Improved Techniques for Training Reasoning Diffusion Language Models",
+        "authors": ["Guanghan Wang", "Yair Schiff", "Gilad Turok", "Volodymyr Kuleshov"],
+        "url": "https://www.arxiv.org/abs/2509.21474"
+      }
+    ]
   }
 ]
