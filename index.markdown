@@ -39,7 +39,7 @@ icon: fa-user
     <div class="wraptext">
     <img src="assets/images/profile_picture.jpeg" alt="profile_pictures" class="curve">
     <p>I am a PhD candidate in the Computer Science department at <a href="https://www.cs.cornell.edu/" target="_blank">Cornell University</a> where I am fortunate to be working with Prof. <a href="https://www.cs.cornell.edu/~kuleshov/" target="_blank"> Volodymyr Kuleshov</a>.
-    <p>Here is my full <a style="font-weight:400" href="assets/resume/YSResume2025.pdf" target="_blank">CV</a>.</p>
+    <p>Here is my full <a style="font-weight:400" href="assets/resume/YSResume2026.pdf" target="_blank">CV</a>.</p>
     </div>
   </body>
 </html>
