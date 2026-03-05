@@ -201,6 +201,14 @@
     "type": "Preprints",
     "content": [
       {
+        "title": "Learn from Your Mistakes: Self-Correcting Masked Diffusion Models",
+        "authors": ["Yair Schiff*", "Omer Belhasin*", "Roy Uziel", "Guanghan Wang", "Marianne Arriola", "Gilad Turok", "Michael Elad", "Volodymyr Kuleshov"],
+        "author_comments": "*equal contribution",
+        "url": "https://arxiv.org/abs/2602.11590",
+        "site": "https://proseco-discrete-diffusion.github.io/",
+        "code": "https://github.com/kuleshov-group/proseco"
+      },
+      {
         "title": "A foundational model for joint sequence-function multi-species modeling at scale for long-range genomic prediction",
       "authors": ["Sam Boshar", "Benjamin Evans", "Ziqi Tang", "Armand Picard", "Yanis Adel", "Franziska K. Lorbeer", "Chandana Rajesh", "Tristan Karch", "Shawn Sidbon", "David Emms", "Javier Mendoza-Revilla", "Fatimah Al-Ani", "Evan Seitz", "Yair Schiff", "Yohan Bornachot", "Ariana Hernandez", "Marie Lopez", "Alexandre Laterre", "Karim Beguir", "Peter Koo", "Volodymyr Kuleshov", "Alexander Stark",  "Bernardo P. de Almeida",  "Thomas Pierrot"],
         "url": "https://www.biorxiv.org/content/10.64898/2025.12.22.695963v1",
