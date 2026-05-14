@@ -3,6 +3,11 @@
     "type": "Publications",
     "content": [
       {
+        "title": "d2: Improved Techniques for Training Reasoning Diffusion Language Models",
+        "authors": ["Guanghan Wang", "Gilad Turok", "Yair Schiff", "Volodymyr Kuleshov"],
+        "url": "https://www.arxiv.org/abs/2509.21474"
+      },
+      {
         "title": "Encoder-Decoder Diffusion Language Models for Efficient Training and Inference",
         "authors": ["Marianne Arriola*", "Yair Schiff*", "Hao Phung", "Aaron Gokaslan",  "Volodymyr Kuleshov"],
         "author_comments": "*equal contribution",
@@ -215,11 +220,6 @@
         "site": "https://huggingface.co/spaces/InstaDeepAI/ntv3",
         "code": "https://github.com/instadeepai/nucleotide-transformer"
       },
-      {
-        "title": "d2: Improved Techniques for Training Reasoning Diffusion Language Models",
-        "authors": ["Guanghan Wang", "Yair Schiff", "Gilad Turok", "Volodymyr Kuleshov"],
-        "url": "https://www.arxiv.org/abs/2509.21474"
-      }
     ]
   }
 ]

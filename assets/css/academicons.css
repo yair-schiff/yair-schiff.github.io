@@ -446,20 +446,20 @@
   line-height: 0.75em;
   vertical-align: -.0667em;
 }
-@media screen and (max-width:767px) {
-  .ai-custom {
-    font-size: 2.1vw;
-    margin-left: -0.85vw;
-    margin-right: -0.85vw;
-    vertical-align: -.3vw;
-  }
+ul.icons a.ai-custom {
+  font-size: inherit;
+  line-height: 2em;
+  margin-left: 0;
+  margin-right: 0;
+  vertical-align: baseline;
 }
-@media screen and (min-width: 800px) {
-  .ai-custom {
-    font-size: 2.1vw;
-    margin-left: -0.85vw;
-    margin-right: -0.85vw;
-    vertical-align: -.3vw;
+ul.icons a.ai-custom:before {
+  font-size: 1.4em;
+  line-height: 1;
+}
+@media screen and (max-width: 960px) {
+  ul.icons a.ai-custom {
+    font-size: 1.25em;
   }
 }
 .ai-xs {
