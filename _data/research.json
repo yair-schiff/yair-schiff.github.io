@@ -5,7 +5,10 @@
       {
         "title": "d2: Improved Techniques for Training Reasoning Diffusion Language Models",
         "authors": ["Guanghan Wang", "Gilad Turok", "Yair Schiff", "Volodymyr Kuleshov"],
-        "url": "https://www.arxiv.org/abs/2509.21474"
+        "venue": "ICML 2026",
+        "url": "https://www.arxiv.org/abs/2509.21474",
+        "code": "https://github.com/kuleshov-group/d2",
+        "site": "https://www.guanghanwang.com/d2/"
       },
       {
         "title": "Encoder-Decoder Diffusion Language Models for Efficient Training and Inference",
@@ -168,6 +171,15 @@
     "type": "Workshops",
     "content": [
       {
+        "title": "Learn from Your Mistakes: Self-Correcting Masked Diffusion Models",
+        "authors": ["Yair Schiff*", "Omer Belhasin*", "Roy Uziel", "Guanghan Wang", "Marianne Arriola", "Gilad Turok", "Michael Elad<sup>&dagger;</sup>", "Volodymyr Kuleshov<sup>&dagger;</sup>"],
+        "author_comments": "*equal contribution, <sup>&dagger;</sup>equal senior authorship",
+        "venue": "<a href=\"https://spigmworkshop2026.github.io/\" target=\"_blank\">SPIGM ICML Workshop 2026,</a>&nbsp;&nbsp;<a href=\"https://fdgm-workshop.github.io/FDGM_ICML2026/\" target=\"_blank\">FoGen ICML Workshop 2026</a>",
+        "url": "https://arxiv.org/abs/2602.11590",
+        "site": "https://proseco-discrete-diffusion.github.io/",
+        "code": "https://github.com/kuleshov-group/proseco"
+      },
+      {
         "title": "Advancing DNA Language Models: The Genomics Long-Range Benchmark",
         "authors": ["Evan Trop", "Chia-Hsiang Kao", "Mckinley Polen", "Yair Schiff", "Bernardo P. de Almeida", "Aaron Gokaslan", "Thomas Pierrot", "Volodymyr Kuleshov"],
         "venue": "<a href=\"https://llms4science-community.github.io/aaai2024.html\" target=\"_blank\">LLMs4Bio AAAI Workshop 2024,</a>&nbsp;&nbsp;<a href=\"https://mlgenx.github.io/\" target=\"_blank\">MLGenX ICLR Workshop 2024</a>",
@@ -205,14 +217,6 @@
   {
     "type": "Preprints",
     "content": [
-      {
-        "title": "Learn from Your Mistakes: Self-Correcting Masked Diffusion Models",
-        "authors": ["Yair Schiff*", "Omer Belhasin*", "Roy Uziel", "Guanghan Wang", "Marianne Arriola", "Gilad Turok", "Michael Elad", "Volodymyr Kuleshov"],
-        "author_comments": "*equal contribution",
-        "url": "https://arxiv.org/abs/2602.11590",
-        "site": "https://proseco-discrete-diffusion.github.io/",
-        "code": "https://github.com/kuleshov-group/proseco"
-      },
       {
         "title": "A foundational model for joint sequence-function multi-species modeling at scale for long-range genomic prediction",
       "authors": ["Sam Boshar", "Benjamin Evans", "Ziqi Tang", "Armand Picard", "Yanis Adel", "Franziska K. Lorbeer", "Chandana Rajesh", "Tristan Karch", "Shawn Sidbon", "David Emms", "Javier Mendoza-Revilla", "Fatimah Al-Ani", "Evan Seitz", "Yair Schiff", "Yohan Bornachot", "Ariana Hernandez", "Marie Lopez", "Alexandre Laterre", "Karim Beguir", "Peter Koo", "Volodymyr Kuleshov", "Alexander Stark",  "Bernardo P. de Almeida",  "Thomas Pierrot"],
