@@ -1,0 +1,29 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+description: Project pages for some of Yair Schiff's papers.
+---
+<section class="page-head">
+  <h1 class="name name-sm">Blog</h1>
+  <div class="name-rule" aria-hidden="true"></div>
+  <p class="role">Project pages</p>
+  <p class="tagline tagline-sm">Longer write-ups, figures and demos for some of my papers.</p>
+</section>
+
+{% for p in site.data.projects %}
+<article class="post">
+  <a class="post-image" href="{{ p.url | relative_url }}" aria-label="{{ p.name }} project page"><img src="{{ p.image | relative_url }}" alt="" loading="lazy"></a>
+  <div class="post-body">
+    <p class="post-meta"><span class="post-venue">{{ p.venue }}</span><span>yair-schiff.github.io{{ p.url }}</span></p>
+    <h2 class="post-title"><a href="{{ p.url | relative_url }}">{{ p.name }}</a></h2>
+    <p class="post-subtitle">{{ p.title }}</p>
+    <p class="post-blurb">{{ p.blurb }}</p>
+    <div class="post-links">
+      <a class="read-more" href="{{ p.url | relative_url }}">Read the project page →</a>
+      <a class="chip" href="{{ p.paper }}" target="_blank" rel="noopener">Paper</a>
+      <a class="chip" href="{{ p.code }}" target="_blank" rel="noopener">Code</a>
+    </div>
+  </div>
+</article>
+{% endfor %}

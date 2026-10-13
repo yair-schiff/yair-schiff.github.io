@@ -1,0 +1,23 @@
+<article class="pub" data-type="{{ pub.type }}"{% if pub.selected %} data-selected{% endif %}>
+  <div class="pub-venue">
+    {% if pub.venue_url %}<a class="venue" href="{{ pub.venue_url }}" target="_blank" rel="noopener">{{ pub.venue }}</a>{% else %}<span class="venue">{{ pub.venue }}</span>{% endif %}
+    {% if pub.award %}<span class="badge{% if pub.type == 'workshop' %} badge-outline{% endif %}">{% include star.html %}{{ pub.award }}</span>{% endif %}
+    {% if pub.also %}
+    <div class="also">
+      <span class="also-label">Also at</span>
+      {% for w in pub.also %}
+      {% if w.url %}<a class="also-venue" href="{{ w.url }}" target="_blank" rel="noopener">{{ w.venue }}</a>{% else %}<span class="also-venue">{{ w.venue }}</span>{% endif %}
+      {% if w.award %}<span class="badge badge-outline">{% include star.html %}{{ w.award }}</span>{% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  <div class="pub-body">
+    <h3 class="pub-title"><a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a></h3>
+    <p class="pub-authors">{% for author in pub.authors %}{% assign name = author | replace: '*', '<sup>*</sup>' | replace: '†', '<sup>†</sup>' %}{% if author contains 'Yair Schiff' %}<strong>{{ name }}</strong>{% else %}{{ name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+    {% if pub.note %}<p class="pub-note">{{ pub.note }}</p>{% endif %}
+    <div class="pub-links">
+      {% for kind in link_kinds %}{% assign kv = kind | split: ':' %}{% assign key = kv[0] %}{% assign href = pub[key] %}{% if href %}{% if href contains '://' %}<a class="chip" href="{{ href }}" target="_blank" rel="noopener">{{ kv[1] }}</a>{% else %}<a class="chip" href="{{ href | relative_url }}">{{ kv[1] }}</a>{% endif %}{% endif %}{% endfor %}
+    </div>
+  </div>
+</article>

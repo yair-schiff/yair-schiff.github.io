@@ -1,0 +1,35 @@
+# Project pages listed on /blog/. Each page lives in its own folder at the repo root.
+- name: ProSeCo
+  title: "Learn from Your Mistakes: Self-Correcting Masked Diffusion Models"
+  venue: NeurIPS 2026
+  url: /proseco/
+  image: /assets/images/blog/proseco.jpg
+  blurb: >-
+    Masked diffusion models keep tokens fixed once they are unmasked, so errors accumulate.
+    ProSeCo trains one model to both unmask and correct, interleaving corrective refinement
+    steps with unmasking during generation.
+  paper: https://arxiv.org/abs/2602.11590
+  code: https://github.com/kuleshov-group/proseco
+
+- name: UDLM
+  title: Simple Guidance Mechanisms for Discrete Diffusion Models
+  venue: ICLR 2025
+  url: /udlm/
+  image: /assets/images/blog/udlm.jpg
+  blurb: >-
+    Simple, effective classifier-based and classifier-free guidance for discrete diffusion,
+    plus UDLM, a class of uniform-noise diffusion language models that is particularly
+    amenable to guidance.
+  paper: https://arxiv.org/abs/2412.10193
+  code: https://github.com/kuleshov-group/discrete-diffusion-guidance
+
+- name: Caduceus
+  title: Bi-Directional Equivariant Long-Range DNA Sequence Modeling
+  venue: ICML 2024
+  url: /caduceus/
+  image: /assets/images/blog/caduceus.jpg
+  blurb: >-
+    A family of bi-directional, long-range DNA language models built on Mamba, and the first
+    to respect the reverse-complement symmetry of double-stranded DNA.
+  paper: https://arxiv.org/abs/2403.03234
+  code: https://github.com/kuleshov-group/caduceus
