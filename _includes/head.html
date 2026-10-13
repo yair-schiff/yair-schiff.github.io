@@ -14,7 +14,8 @@
       document.documentElement.classList.add('js');
     })();
   </script>
-  {% seo %}
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  {% seo title=false %}
   <link rel="icon" type="image/png" href="{{ '/assets/images/favicon_ct.png' | relative_url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
