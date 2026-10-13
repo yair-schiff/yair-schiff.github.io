@@ -11,7 +11,7 @@
   paper: https://arxiv.org/abs/2602.11590
   code: https://github.com/kuleshov-group/proseco
 
-- name: UDLM
+- name: Discrete Diffusion Guidance
   title: Simple Guidance Mechanisms for Discrete Diffusion Models
   venue: ICLR 2025
   url: /discrete-diffusion-guidance/
