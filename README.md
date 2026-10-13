@@ -4,7 +4,7 @@ Repository for my personal website, served by GitHub Pages at https://yair-schif
 
 - `index.html` – home page (intro + publications)
 - `blog/index.html` – list of project pages, driven by `_data/projects.yml`
-- `proseco/`, `udlm/`, `caduceus/` – self-contained project pages
+- `proseco/`, `discrete-diffusion-guidance/`, `caduceus/` – self-contained project pages
 - `_layouts/`, `_includes/`, `assets/css/site.css`, `assets/js/site.js` – site template
 
 ## Adding a publication

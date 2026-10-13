@@ -14,8 +14,8 @@
 - name: UDLM
   title: Simple Guidance Mechanisms for Discrete Diffusion Models
   venue: ICLR 2025
-  url: /udlm/
-  image: /assets/images/blog/udlm.jpg
+  url: /discrete-diffusion-guidance/
+  image: /assets/images/blog/discrete-diffusion-guidance.jpg
   blurb: >-
     Simple, effective classifier-based and classifier-free guidance for discrete diffusion,
     plus UDLM, a class of uniform-noise diffusion language models that is particularly

@@ -85,7 +85,7 @@
     "selected": true,
     "venue": "ICLR 2025",
     "url": "https://arxiv.org/abs/2412.10193",
-    "site": "/udlm/",
+    "site": "/discrete-diffusion-guidance/",
     "code": "https://github.com/kuleshov-group/discrete-diffusion-guidance",
     "video": "https://youtu.be/KG_f9uBb4bA"
   },
