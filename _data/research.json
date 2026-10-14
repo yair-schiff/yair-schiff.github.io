@@ -51,7 +51,8 @@
     "venue": "NeurIPS 2025",
     "url": "https://arxiv.org/abs/2510.22852",
     "site": "https://m-arriola.com/e2d2/",
-    "code": "https://github.com/kuleshov-group/e2d2"
+    "code": "https://github.com/kuleshov-group/e2d2",
+    "video": "https://slideslive.com/39051901/e2d2-encoderdecoder-diffusion-language-models-for-efficient-training-and-inference"
   },
   {
     "title": "Remasking Discrete Diffusion Models with Inference-Time Scaling",
