@@ -20,6 +20,8 @@
   --tint: #F7EBED;
   --tint-line: #D9A9B2;
   --sel: #F3D6DC;
+  --node-bg: #FFFFFF;
+  --node-ring: #E4E6EA;
   --shadow: 0 2px 10px rgba(22, 24, 29, 0.10);
   --serif: 'Newsreader', Georgia, serif;
   --sans: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
@@ -48,6 +50,8 @@
   --tint: #2B1B1F;
   --tint-line: #7A4450;
   --sel: #5A2A33;
+  --node-bg: #3A3F48;
+  --node-ring: #4A505C;
   --shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
   color-scheme: dark;
 }
@@ -239,7 +243,7 @@ a.also-venue:hover { color: var(--accent); }
 .tl-node {
   flex: none; width: 60px; height: 60px; box-sizing: border-box; padding: 8px;
   display: flex; align-items: center; justify-content: center;
-  border: 1px solid var(--line); border-radius: 50%; background: var(--bg);
+  border: 1px solid var(--node-ring); border-radius: 50%; background: var(--node-bg);
 }
 .tl-node img { display: block; max-width: 44px; max-height: 40px; }
 /* logos with a dark-mode variant swap with the theme */
