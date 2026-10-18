@@ -1,0 +1,53 @@
+# Entries for /cv/ (newest first). `details` lines are optional.
+education:
+  - school: Cornell University
+    degree: PhD in Computer Science
+    when: 2022 – Present
+    where: New York, NY
+    details:
+      - "Advisor: Prof. Volodymyr Kuleshov"
+      - Hal & Inge Marcus PhD Fellowship (2022–2023)
+      - Cornell Tech Outstanding TA Award (2023)
+
+  - school: New York University, Courant Institute
+    degree: MS in Computer Science
+    when: 2019
+    where: New York, NY
+
+  - school: University of Pennsylvania
+    degree: BA in Economics, Summa Cum Laude with Distinction
+    when: 2014
+    where: Philadelphia, PA
+    details:
+      - Phi Beta Kappa
+
+experience:
+  - company: NVIDIA
+    role: Research Intern
+    when: Present
+
+  - company: InstaDeep
+    role: PhD Research Intern
+    when: May 2024 – Nov 2025
+    where: New York, NY
+    summary: Generative modeling for genomic sequences and control mechanisms for guided sequence generation.
+
+  - company: Google
+    role: Student Researcher
+    when: May 2023 – Oct 2023
+    where: New York, NY
+    summary: Methods for stabilizing autoregressive rollouts of dynamical system models.
+
+  - company: IBM
+    role: Cognitive Software Developer, Watson Machine Learning
+    when: Aug 2019 – Aug 2022
+    where: New York, NY
+    summary: >-
+      Developed and released Watson Machine Learning products, and contributed research with
+      IBM Research's Trusted AI team, including the first-place 2020 VizWiz Grand Challenge entry.
+
+  - company: Simon-Kucher & Partners
+    role: Consultant
+    when: Sep 2014 – Aug 2017
+    where: New York, NY
+    summary: Advised global companies on pricing and revenue strategy.

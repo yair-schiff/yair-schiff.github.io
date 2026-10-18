@@ -1,0 +1,47 @@
+---
+layout: default
+title: CV
+permalink: /cv/
+description: Yair Schiff's education and work experience.
+---
+<section class="page-head cv-head">
+  <div>
+    <h1 class="name name-sm">CV</h1>
+    <div class="name-rule" aria-hidden="true"></div>
+    <p class="role">Education · Experience</p>
+  </div>
+  <a class="pdf-btn" href="{{ site.cv | relative_url }}">
+    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M12 11v6"/><path d="M9 14l3 3 3-3"/></svg>
+    Download PDF
+  </a>
+</section>
+
+<section class="cv-section">
+  <h2>Education</h2>
+  {% for e in site.data.cv.education %}
+  <div class="cv-entry">
+    <div class="cv-when">{{ e.when }}</div>
+    <div class="cv-body">
+      <h3 class="cv-title">{{ e.school }}</h3>
+      <p class="cv-sub">{{ e.degree }}</p>
+      {% if e.where %}<p class="cv-meta">{{ e.where }}</p>{% endif %}
+      {% if e.details %}<ul class="cv-details">{% for d in e.details %}<li>{{ d }}</li>{% endfor %}</ul>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</section>
+
+<section class="cv-section">
+  <h2>Experience</h2>
+  {% for x in site.data.cv.experience %}
+  <div class="cv-entry">
+    <div class="cv-when">{{ x.when }}</div>
+    <div class="cv-body">
+      <h3 class="cv-title">{{ x.company }}</h3>
+      <p class="cv-sub">{{ x.role }}</p>
+      {% if x.where %}<p class="cv-meta">{{ x.where }}</p>{% endif %}
+      {% if x.summary %}<p class="cv-summary">{{ x.summary }}</p>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</section>
