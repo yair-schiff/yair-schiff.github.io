@@ -28,7 +28,6 @@ education:
 experience:
   - company: NVIDIA
     logo: /assets/images/logos/nvidia.svg
-    logo_dark: /assets/images/logos/nvidia-dark.svg
     role: Research Intern
     when: Present
 
