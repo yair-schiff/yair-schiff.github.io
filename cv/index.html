@@ -18,36 +18,36 @@ description: Yair Schiff's education and work experience.
 
 <section class="cv-section">
   <h2>Education</h2>
-  {% for e in site.data.cv.education %}
-  <div class="cv-entry">
-    <div class="cv-when">{{ e.when }}</div>
-    <div class="cv-body">
-      {% if e.logo %}<div class="cv-logo"><img src="{{ e.logo | relative_url }}" alt="" loading="lazy"></div>{% endif %}
-      <div class="cv-text">
-      <h3 class="cv-title">{{ e.school }}</h3>
-      <p class="cv-sub">{{ e.degree }}</p>
-      {% if e.where %}<p class="cv-meta">{{ e.where }}</p>{% endif %}
-      {% if e.details %}<ul class="cv-details">{% for d in e.details %}<li>{{ d }}</li>{% endfor %}</ul>{% endif %}
+  <ol class="timeline">
+    {% for e in site.data.cv.education %}
+    <li class="tl-item">
+      <div class="tl-node">{% if e.logo %}<img src="{{ e.logo | relative_url }}" alt="" loading="lazy">{% endif %}</div>
+      <div class="tl-body">
+        <p class="tl-when">{{ e.when }}</p>
+        <h3 class="cv-title">{{ e.school }}</h3>
+        <p class="cv-sub">{{ e.degree }}</p>
+        {% if e.where %}<p class="cv-meta">{{ e.where }}</p>{% endif %}
+        {% if e.details %}<ul class="cv-details">{% for d in e.details %}<li>{{ d }}</li>{% endfor %}</ul>{% endif %}
       </div>
-    </div>
-  </div>
-  {% endfor %}
+    </li>
+    {% endfor %}
+  </ol>
 </section>
 
 <section class="cv-section">
   <h2>Experience</h2>
-  {% for x in site.data.cv.experience %}
-  <div class="cv-entry">
-    <div class="cv-when">{{ x.when }}</div>
-    <div class="cv-body">
-      {% if x.logo %}<div class="cv-logo"><img src="{{ x.logo | relative_url }}" alt="" loading="lazy"></div>{% endif %}
-      <div class="cv-text">
-      <h3 class="cv-title">{{ x.company }}</h3>
-      <p class="cv-sub">{{ x.role }}</p>
-      {% if x.where %}<p class="cv-meta">{{ x.where }}</p>{% endif %}
-      {% if x.summary %}<p class="cv-summary">{{ x.summary }}</p>{% endif %}
+  <ol class="timeline">
+    {% for x in site.data.cv.experience %}
+    <li class="tl-item">
+      <div class="tl-node">{% if x.logo %}<img src="{{ x.logo | relative_url }}" alt="" loading="lazy">{% endif %}</div>
+      <div class="tl-body">
+        <p class="tl-when">{{ x.when }}</p>
+        <h3 class="cv-title">{{ x.company }}</h3>
+        <p class="cv-sub">{{ x.role }}</p>
+        {% if x.where %}<p class="cv-meta">{{ x.where }}</p>{% endif %}
+        {% if x.summary %}<p class="cv-summary">{{ x.summary }}</p>{% endif %}
       </div>
-    </div>
-  </div>
-  {% endfor %}
+    </li>
+    {% endfor %}
+  </ol>
 </section>
