@@ -13,6 +13,7 @@ education:
 
   - school: New York University, Courant Institute
     logo: /assets/images/logos/nyu.svg
+    logo_dark: /assets/images/logos/nyu-dark.svg
     degree: MS in Computer Science
     when: 2019
     where: New York, NY
