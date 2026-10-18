@@ -2,6 +2,7 @@
 education:
   - school: Cornell University
     logo: /assets/images/logos/cornell.svg
+    logo_dark: /assets/images/logos/cornell-dark.svg
     degree: PhD in Computer Science
     when: 2022 – Present
     where: New York, NY
@@ -27,6 +28,7 @@ education:
 experience:
   - company: NVIDIA
     logo: /assets/images/logos/nvidia.svg
+    logo_dark: /assets/images/logos/nvidia-dark.svg
     role: Research Intern
     when: Present
 
@@ -35,27 +37,23 @@ experience:
     role: PhD Research Intern
     when: May 2024 – Nov 2025
     where: New York, NY
-    summary: Generative modeling for genomic sequences and control mechanisms for guided sequence generation.
 
   - company: Google
     logo: /assets/images/logos/google.svg
     role: Student Researcher
     when: May 2023 – Oct 2023
     where: New York, NY
-    summary: Methods for stabilizing autoregressive rollouts of dynamical system models.
 
   - company: IBM
     logo: /assets/images/logos/ibm.svg
+    logo_dark: /assets/images/logos/ibm-dark.svg
     role: Cognitive Software Developer, Watson Machine Learning
     when: Aug 2019 – Aug 2022
     where: New York, NY
-    summary: >-
-      Developed and released Watson Machine Learning products, and contributed research with
-      IBM Research's Trusted AI team, including the first-place 2020 VizWiz Grand Challenge entry.
 
   - company: Simon-Kucher & Partners
     logo: /assets/images/logos/simon-kucher.svg
+    logo_dark: /assets/images/logos/simon-kucher-dark.svg
     role: Consultant
     when: Sep 2014 – Aug 2017
     where: New York, NY
-    summary: Advised global companies on pricing and revenue strategy.
