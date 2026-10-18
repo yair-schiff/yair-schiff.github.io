@@ -22,10 +22,13 @@ description: Yair Schiff's education and work experience.
   <div class="cv-entry">
     <div class="cv-when">{{ e.when }}</div>
     <div class="cv-body">
+      {% if e.logo %}<div class="cv-logo"><img src="{{ e.logo | relative_url }}" alt="" loading="lazy"></div>{% endif %}
+      <div class="cv-text">
       <h3 class="cv-title">{{ e.school }}</h3>
       <p class="cv-sub">{{ e.degree }}</p>
       {% if e.where %}<p class="cv-meta">{{ e.where }}</p>{% endif %}
       {% if e.details %}<ul class="cv-details">{% for d in e.details %}<li>{{ d }}</li>{% endfor %}</ul>{% endif %}
+      </div>
     </div>
   </div>
   {% endfor %}
@@ -37,10 +40,13 @@ description: Yair Schiff's education and work experience.
   <div class="cv-entry">
     <div class="cv-when">{{ x.when }}</div>
     <div class="cv-body">
+      {% if x.logo %}<div class="cv-logo"><img src="{{ x.logo | relative_url }}" alt="" loading="lazy"></div>{% endif %}
+      <div class="cv-text">
       <h3 class="cv-title">{{ x.company }}</h3>
       <p class="cv-sub">{{ x.role }}</p>
       {% if x.where %}<p class="cv-meta">{{ x.where }}</p>{% endif %}
       {% if x.summary %}<p class="cv-summary">{{ x.summary }}</p>{% endif %}
+      </div>
     </div>
   </div>
   {% endfor %}
