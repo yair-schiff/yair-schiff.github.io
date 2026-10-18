@@ -21,7 +21,7 @@ description: Yair Schiff's education and work experience.
   <ol class="timeline">
     {% for e in site.data.cv.education %}
     <li class="tl-item">
-      <div class="tl-node{% if e.logo_dark %} has-dark{% endif %}">{% if e.logo %}<img class="logo-light" src="{{ e.logo | relative_url }}" alt="" loading="lazy">{% endif %}{% if e.logo_dark %}<img class="logo-dark" src="{{ e.logo_dark | relative_url }}" alt="" loading="lazy">{% endif %}</div>
+      <div class="tl-node{% if e.logo_dark %} has-dark{% endif %}{% if e.logo_fill %} tl-node--fill{% endif %}">{% if e.logo %}<img class="logo-light" src="{{ e.logo | relative_url }}" alt="" loading="lazy">{% endif %}{% if e.logo_dark %}<img class="logo-dark" src="{{ e.logo_dark | relative_url }}" alt="" loading="lazy">{% endif %}</div>
       <div class="tl-body">
         <p class="tl-when">{{ e.when }}</p>
         <h3 class="cv-title">{{ e.school }}</h3>
@@ -39,7 +39,7 @@ description: Yair Schiff's education and work experience.
   <ol class="timeline">
     {% for x in site.data.cv.experience %}
     <li class="tl-item">
-      <div class="tl-node{% if x.logo_dark %} has-dark{% endif %}">{% if x.logo %}<img class="logo-light" src="{{ x.logo | relative_url }}" alt="" loading="lazy">{% endif %}{% if x.logo_dark %}<img class="logo-dark" src="{{ x.logo_dark | relative_url }}" alt="" loading="lazy">{% endif %}</div>
+      <div class="tl-node{% if x.logo_dark %} has-dark{% endif %}{% if x.logo_fill %} tl-node--fill{% endif %}">{% if x.logo %}<img class="logo-light" src="{{ x.logo | relative_url }}" alt="" loading="lazy">{% endif %}{% if x.logo_dark %}<img class="logo-dark" src="{{ x.logo_dark | relative_url }}" alt="" loading="lazy">{% endif %}</div>
       <div class="tl-body">
         <p class="tl-when">{{ x.when }}</p>
         <h3 class="cv-title">{{ x.company }}</h3>

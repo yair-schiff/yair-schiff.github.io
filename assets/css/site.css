@@ -246,6 +246,9 @@ a.also-venue:hover { color: var(--accent); }
   border: 1px solid var(--node-ring); border-radius: 50%; background: var(--node-bg);
 }
 .tl-node img { display: block; max-width: 44px; max-height: 40px; }
+/* logos that are already round/bold fill more of their circle */
+.tl-node--fill { padding: 3px; }
+.tl-node--fill img { max-width: 54px; max-height: 54px; }
 /* logos with a dark-mode variant swap with the theme */
 .tl-node .logo-dark { display: none; }
 [data-theme="dark"] .tl-node.has-dark .logo-light { display: none; }
@@ -288,6 +291,7 @@ a.also-venue:hover { color: var(--accent); }
   .tl-item { gap: 16px; }
   .tl-node { width: 48px; height: 48px; padding: 6px; }
   .tl-node img { max-width: 36px; max-height: 32px; }
+  .tl-node--fill img { max-width: 42px; max-height: 42px; }
   .tl-item:not(:last-child)::before { left: 23px; top: 56px; }
   .site-nav { gap: 4px 24px; }
 }
