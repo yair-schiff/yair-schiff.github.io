@@ -23,8 +23,6 @@ education:
     degree: BA in Economics, Summa Cum Laude with Distinction
     when: 2014
     where: Philadelphia, PA
-    details:
-      - Phi Beta Kappa
 
 experience:
   - company: NVIDIA
