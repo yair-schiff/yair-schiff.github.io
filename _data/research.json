@@ -9,6 +9,15 @@
     "url": "https://arxiv.org/abs/2610.00894"
   },
   {
+    "title": "DUEL: Exact Likelihood Reshapes Masked Diffusion Scaling Laws and Beyond",
+    "authors": ["Gilad Turok", "Yair Schiff", "Chris De Sa", "Volodymyr Kuleshov"],
+    "type": "preprint",
+    "venue": "arXiv preprint",
+    "url": "https://arxiv.org/abs/2603.01367",
+    "site": "https://giladturok.github.io/duel/",
+    "code": "https://github.com/kuleshov-group/duel"
+  },
+  {
     "title": "A foundational model for joint sequence-function multi-species modeling at scale for long-range genomic prediction",
     "authors": ["Sam Boshar", "Benjamin Evans", "Ziqi Tang", "Armand Picard", "Yanis Adel", "Franziska K. Lorbeer", "Chandana Rajesh", "Tristan Karch", "Shawn Sidbon", "David Emms", "Javier Mendoza-Revilla", "Fatimah Al-Ani", "Evan Seitz", "Yair Schiff", "Yohan Bornachot", "Ariana Hernandez", "Marie Lopez", "Alexandre Laterre", "Karim Beguir", "Peter Koo", "Volodymyr Kuleshov", "Alexander Stark", "Bernardo P. de Almeida", "Thomas Pierrot"],
     "type": "preprint",
