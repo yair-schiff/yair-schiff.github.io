@@ -1,0 +1,70 @@
+# Extra sections for the PDF resume (built by scripts/build_resume.py).
+# Education and experience come from cv.yml, publications from research.json.
+title: PhD Candidate, Computer Science, Cornell University
+interests: Generative modeling for discrete data · Optimal transport · AI for science · AI for social good
+
+links:
+  - label: yairschiff@cs.cornell.edu
+    url: mailto:yairschiff@cs.cornell.edu
+  - label: yair-schiff.github.io
+    url: https://yair-schiff.github.io
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=GhFrOdQAAAAJ
+  - label: GitHub
+    url: https://github.com/yair-schiff
+  - label: LinkedIn
+    url: https://linkedin.com/in/yair-schiff
+
+honors:
+  - when: "2021"
+    what: >-
+      Two IBM Research Accomplishment Awards, for trustworthy generative modeling and for
+      deploying large-scale transformer models on OpenShift
+  - when: "2020"
+    what: First place, VizWiz Grand Challenge on image captioning for the visually impaired (CVPR)
+  - when: "2019 – 2022"
+    what: >-
+      IBM Outstanding Technical Achievement Award, for the release of AutoAI feature engineering on
+      relational data, and CrushIT Team Excellence Award (Watson Machine Learning Training team)
+
+teaching:
+  - when: Spring 2023
+    what: Teaching Assistant, Deep Learning, Cornell University
+  - when: Fall 2022
+    what: Teaching Assistant, Applied Machine Learning, Cornell University
+
+mentoring:
+  - org: PhD Peer Mentor Program
+    role: Mentor
+    when: Present
+    where: New York, NY
+    bullets:
+      - Meet with a fellow PhD student to provide guidance about graduate school life at Cornell Tech
+  - org: Student-Applicant Support Program
+    role: Volunteer
+    when: Present
+    where: New York, NY
+    bullets:
+      - Provide feedback and support to students applying to graduate programs in computer science and related fields
+  - org: Grads for Gender Inclusion in Computing
+    role: Member
+    when: Present
+    where: New York, NY
+    bullets:
+      - Member of a group dedicated to combating harassment, pushing for policy change, and creating supportive spaces
+
+service:
+  - label: Reviewer
+    what: NeurIPS (2023, 2025, 2026) · ICML (2024, 2025, 2026) · ICLR (2025, 2027)
+  - label: Recognition
+    what: Gold Reviewer, ICML 2026 · Top Reviewer, NeurIPS 2025 · Top Reviewer, NeurIPS 2023
+
+skills:
+  - label: Programming
+    what: Python, C++, Java
+  - label: Deep learning
+    what: PyTorch, PyTorch Lightning
+  - label: Data tools
+    what: Excel, Stata, Tableau
+  - label: Languages
+    what: Fluent in Hebrew

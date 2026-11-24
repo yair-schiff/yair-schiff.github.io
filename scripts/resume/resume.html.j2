@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ name }} — CV</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>{{ css }}</style>
+</head>
+<body>
+
+<header>
+  <h1>{{ name }}</h1>
+  <div class="rule"></div>
+  <p class="role">{{ r.title }}</p>
+  <p class="contact">{% for l in r.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% if not loop.last %}<span class="sep">·</span>{% endif %}{% endfor %}</p>
+</header>
+
+<section>
+  <h2>Research interests</h2>
+  <p class="interests">{{ r.interests }}</p>
+</section>
+
+<section>
+  <h2>Education</h2>
+  {% for e in cv.education %}
+  <div class="row">
+    <div class="when">{{ e.when }}</div>
+    <div class="what">
+      <p class="head"><span class="org">{{ e.school }}</span>{% if e.where %}<span class="where">{{ e.where }}</span>{% endif %}</p>
+      <p class="sub">{{ e.degree }}</p>
+      {% if e.details %}<ul>{% for d in e.details %}<li>{{ d }}</li>{% endfor %}</ul>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</section>
+
+<section>
+  <h2>Experience</h2>
+  {% for x in cv.experience %}
+  <div class="row">
+    <div class="when">{{ x.when }}</div>
+    <div class="what">
+      <p class="head"><span class="org">{{ x.company }}</span>{% if x.where %}<span class="where">{{ x.where }}</span>{% endif %}</p>
+      <p class="sub">{{ x.role }}</p>
+      {% if x.bullets %}<ul>{% for b in x.bullets %}<li>{{ b }}</li>{% endfor %}</ul>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</section>
+
+<section class="pubs">
+  <h2>Publications</h2>
+  {% for g in pub_groups %}
+  <h3>{{ g.label }}</h3>
+  {% for p in g.entries %}
+  <div class="row pub">
+    <div class="when">{{ p.venue }}</div>
+    <div class="what">
+      <p class="title"><a href="{{ p.url }}">{{ p.title }}</a></p>
+      <p class="authors">{{ p.authors }}</p>
+      {% if p.extras %}<p class="extra">{{ p.extras }}</p>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+  {% endfor %}
+</section>
+
+<section>
+  <h2>Honors &amp; awards</h2>
+  {% for h in r.honors %}
+  <div class="row compact"><div class="when">{{ h.when }}</div><div class="what"><p class="plain">{{ h.what }}</p></div></div>
+  {% endfor %}
+</section>
+
+<section>
+  <h2>Teaching</h2>
+  {% for t in r.teaching %}
+  <div class="row compact"><div class="when">{{ t.when }}</div><div class="what"><p class="plain">{{ t.what }}</p></div></div>
+  {% endfor %}
+</section>
+
+<section>
+  <h2>Mentoring &amp; outreach</h2>
+  {% for m in r.mentoring %}
+  <div class="row">
+    <div class="when">{{ m.when }}</div>
+    <div class="what">
+      <p class="head"><span class="org">{{ m.org }}</span>{% if m.where %}<span class="where">{{ m.where }}</span>{% endif %}</p>
+      <p class="sub">{{ m.role }}</p>
+      {% if m.bullets %}<ul>{% for b in m.bullets %}<li>{{ b }}</li>{% endfor %}</ul>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</section>
+
+<section>
+  <h2>Service</h2>
+  {% for s in r.service %}
+  <div class="row compact"><div class="when">{{ s.label }}</div><div class="what"><p class="plain">{{ s.what }}</p></div></div>
+  {% endfor %}
+</section>
+
+<section>
+  <h2>Skills</h2>
+  {% for s in r.skills %}
+  <div class="row compact"><div class="when">{{ s.label }}</div><div class="what"><p class="plain">{{ s.what }}</p></div></div>
+  {% endfor %}
+</section>
+
+<footer>Updated {{ updated }} · <a href="https://yair-schiff.github.io">yair-schiff.github.io</a></footer>
+</body>
+</html>

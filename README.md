@@ -36,6 +36,17 @@ Add an entry to `_data/research.json` (newest first):
 - `*` and `†` after an author name are rendered as superscripts; explain them in `note`.
 - Only `title`, `authors`, `type`, `venue` and `url` are required.
 
+## Updating the resume PDF
+
+The PDF at `assets/resume/` is generated from the same data as the site:
+education and experience from `_data/cv.yml`, publications from `_data/research.json`,
+and everything else (honors, teaching, service, contact links) from `_data/resume.yml`.
+After editing any of those, rebuild it (needs Google Chrome):
+
+```
+uv run scripts/build_resume.py
+```
+
 ## Local preview
 
 ```

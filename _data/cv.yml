@@ -1,4 +1,5 @@
 # Entries for /cv/ (newest first). `details` lines are optional.
+# `bullets` appear only on the PDF resume (scripts/build_resume.py), not on the site.
 education:
   - school: Cornell University
     logo: /assets/images/logos/cornell.png
@@ -28,19 +29,25 @@ experience:
   - company: NVIDIA
     logo: /assets/images/logos/nvidia.svg
     role: Research Intern
-    when: Present
+    when: May 2026 – Present
 
   - company: InstaDeep
     logo: /assets/images/logos/instadeep.svg
     role: PhD Research Intern
     when: May 2024 – Nov 2025
     where: New York, NY
+    bullets:
+      - Applied generative modeling techniques to genomic sequences
+      - Investigated control mechanisms for guided sequence generation
 
   - company: Google
     logo: /assets/images/logos/google.svg
     role: Student Researcher
     when: May 2023 – Oct 2023
     where: New York, NY
+    bullets:
+      - Researched new methods for stabilizing autoregressive rollouts of dynamical system models
+      - Contributed to internal Google and open-source libraries for modeling dynamical systems
 
   - company: IBM
     logo: /assets/images/logos/ibm.svg
@@ -48,6 +55,15 @@ experience:
     role: Cognitive Software Developer, Watson Machine Learning
     when: Aug 2019 – Aug 2022
     where: New York, NY
+    bullets:
+      - Contributed to continuous development and testing of Watson Machine Learning products
+      - >-
+        Facilitated weekly Cloud releases, Cloud Pak for Data platform releases, and the launch of AutoAI
+        feature engineering on relational data, AutoAI Time Series, AutoAI Notebooks, and Federated Learning products
+      - Published 6 medium.com articles about Watson Machine Learning product releases
+      - >-
+        Research contributor to IBM Research AI challenges with the Trusted AI department; co-authored
+        publications in generative modeling, molecular discovery, deep learning generalization, and AI for social good
 
   - company: Simon-Kucher & Partners
     logo: /assets/images/logos/simon-kucher.svg
@@ -55,3 +71,10 @@ experience:
     role: Consultant
     when: Sep 2014 – Aug 2017
     where: New York, NY
+    bullets:
+      - >-
+        Advised global companies spanning internet, media, consumer electronics, and chemicals on areas for
+        better revenue capture
+      - >-
+        Synthesized large data sets (e.g., 300 million+ client transactions), customer research (surveys and
+        conjoint studies sent to thousands of respondents), and secondary research to create solutions to client needs

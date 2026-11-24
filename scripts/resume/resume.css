@@ -1,0 +1,122 @@
+/* Print styles for the PDF resume; colors and type follow assets/css/site.css. */
+@page {
+  size: Letter;
+  margin: 0.55in 0.6in 0.6in;
+  @bottom-right {
+    content: counter(page) " / " counter(pages);
+    font: 7.5pt 'IBM Plex Mono', monospace;
+    color: #6B7280;
+  }
+}
+
+:root {
+  --ink: #16181D;
+  --ink2: #2A2E36;
+  --muted: #5B6270;
+  --faint: #6B7280;
+  --accent: #A41E34;
+  --line: #E4E6EA;
+}
+
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+  font-size: 9.5pt;
+  line-height: 1.42;
+}
+a { color: inherit; text-decoration: none; }
+p { margin: 0; }
+
+/* ---- Header ---- */
+h1 {
+  margin: 0;
+  font-family: 'Newsreader', Georgia, serif;
+  font-weight: 400;
+  font-size: 30pt;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.rule { width: 40px; height: 2.5px; margin-top: 9pt; border-radius: 2px; background: var(--accent); }
+.role {
+  margin-top: 7pt;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8.5pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.contact { margin-top: 5pt; font-size: 9pt; }
+.contact a { color: var(--accent); }
+.sep { margin: 0 6px; color: var(--faint); }
+
+/* ---- Sections ---- */
+section { margin-top: 15pt; }
+h2 {
+  margin: 0 0 4pt;
+  padding-bottom: 3pt;
+  border-bottom: 1px solid var(--line);
+  font-family: 'Newsreader', Georgia, serif;
+  font-weight: 500;
+  font-size: 14pt;
+  break-after: avoid;
+}
+h3 {
+  margin: 9pt 0 1pt;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+  font-size: 7.5pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  break-after: avoid;
+}
+.interests { color: var(--ink2); }
+
+/* date/venue column + content, like the site's timeline and publication list */
+.row {
+  display: grid;
+  grid-template-columns: 1.4in 1fr;
+  column-gap: 14pt;
+  padding: 4pt 0;
+  break-inside: avoid;
+}
+.row.compact { padding: 1.5pt 0; }
+.when {
+  padding-top: 1.5pt;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8.2pt;
+  font-weight: 500;
+  color: var(--muted);
+}
+.head { display: flex; justify-content: space-between; align-items: baseline; gap: 12pt; }
+.org { font-family: 'Newsreader', Georgia, serif; font-weight: 500; font-size: 12pt; }
+.where { font-size: 8.5pt; color: var(--faint); white-space: nowrap; }
+.sub { color: var(--ink2); }
+.plain { color: var(--ink2); }
+ul { margin: 2pt 0 0; padding-left: 12pt; color: var(--muted); }
+li::marker { color: var(--accent); }
+
+/* ---- Publications ---- */
+.pub { padding: 3.5pt 0; }
+.title { font-family: 'Newsreader', Georgia, serif; font-weight: 500; font-size: 10.8pt; line-height: 1.28; }
+.title a { color: var(--ink); }
+.authors { margin-top: 1pt; font-size: 8.8pt; color: var(--muted); }
+.authors strong { color: var(--ink); font-weight: 600; }
+.authors sup { font-size: 0.7em; line-height: 0; }
+.extra { margin-top: 1pt; font-size: 8.2pt; color: var(--faint); }
+.award { color: var(--accent); font-weight: 500; }
+.note { font-style: italic; }
+.links a { font-family: 'IBM Plex Mono', monospace; font-size: 7.8pt; color: var(--accent); }
+.dot { margin: 0 5px; color: var(--line); }
+
+footer {
+  margin-top: 18pt;
+  padding-top: 5pt;
+  border-top: 1px solid var(--line);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 7.5pt;
+  color: var(--faint);
+}
+footer a { color: var(--accent); }
