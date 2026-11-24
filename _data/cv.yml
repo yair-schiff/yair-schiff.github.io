@@ -30,6 +30,9 @@ experience:
     logo: /assets/images/logos/nvidia.svg
     role: Research Intern
     when: May 2026 – Present
+    where: New York, NY
+    bullets:
+      - Researching continuous diffusion language models
 
   - company: InstaDeep
     logo: /assets/images/logos/instadeep.svg

@@ -2,14 +2,17 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>{{ name }} — CV</title>
+<title>{{ name }} — Curriculum Vitae</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>{{ css }}</style>
 </head>
 <body>
 
 <header>
-  <h1>{{ name }}</h1>
+  <div class="top">
+    <h1>{{ name }}</h1>
+    <p class="doc">Curriculum Vitae</p>
+  </div>
   <div class="rule"></div>
   <p class="role">{{ r.title }}</p>
   <p class="contact">{% for l in r.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% if not loop.last %}<span class="sep">·</span>{% endif %}{% endfor %}</p>
@@ -34,20 +37,6 @@
   {% endfor %}
 </section>
 
-<section>
-  <h2>Experience</h2>
-  {% for x in cv.experience %}
-  <div class="row">
-    <div class="when">{{ x.when }}</div>
-    <div class="what">
-      <p class="head"><span class="org">{{ x.company }}</span>{% if x.where %}<span class="where">{{ x.where }}</span>{% endif %}</p>
-      <p class="sub">{{ x.role }}</p>
-      {% if x.bullets %}<ul>{% for b in x.bullets %}<li>{{ b }}</li>{% endfor %}</ul>{% endif %}
-    </div>
-  </div>
-  {% endfor %}
-</section>
-
 <section class="pubs">
   <h2>Publications</h2>
   {% for g in pub_groups %}
@@ -62,6 +51,20 @@
     </div>
   </div>
   {% endfor %}
+  {% endfor %}
+</section>
+
+<section>
+  <h2>Experience</h2>
+  {% for x in cv.experience %}
+  <div class="row">
+    <div class="when">{{ x.when }}</div>
+    <div class="what">
+      <p class="head"><span class="org">{{ x.company }}</span>{% if x.where %}<span class="where">{{ x.where }}</span>{% endif %}</p>
+      <p class="sub">{{ x.role }}</p>
+      {% if x.bullets %}<ul>{% for b in x.bullets %}<li>{{ b }}</li>{% endfor %}</ul>{% endif %}
+    </div>
+  </div>
   {% endfor %}
 </section>
 
@@ -107,6 +110,6 @@
   {% endfor %}
 </section>
 
-<footer>Updated {{ updated }} · <a href="https://yair-schiff.github.io">yair-schiff.github.io</a></footer>
+<footer>{{ name }} · Curriculum Vitae · Updated {{ updated }} · <a href="https://yair-schiff.github.io">yair-schiff.github.io</a></footer>
 </body>
 </html>

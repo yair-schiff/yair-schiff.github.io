@@ -38,6 +38,8 @@ h1 {
   line-height: 1;
   letter-spacing: -0.02em;
 }
+.top { display: flex; justify-content: space-between; align-items: baseline; gap: 12pt; }
+.doc { font-family: 'Newsreader', Georgia, serif; font-style: italic; font-size: 14pt; color: var(--muted); }
 .rule { width: 40px; height: 2.5px; margin-top: 9pt; border-radius: 2px; background: var(--accent); }
 .role {
   margin-top: 7pt;
