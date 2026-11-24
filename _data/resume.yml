@@ -61,7 +61,7 @@ service:
 
 skills:
   - label: Programming
-    what: Python, C++, Java
+    what: Python
   - label: Deep learning
     what: PyTorch, PyTorch Lightning
   - label: Data tools
