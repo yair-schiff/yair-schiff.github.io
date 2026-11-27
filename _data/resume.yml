@@ -1,7 +1,7 @@
 # Extra sections for the PDF resume (built by scripts/build_resume.py).
 # Education and experience come from cv.yml, publications from research.json.
 title: PhD Candidate, Computer Science, Cornell University
-interests: Generative modeling for discrete data · Optimal transport · AI for science · AI for social good
+interests: Generative modeling for discrete data · AI for science · AI for social good
 
 links:
   - label: yairschiff@cs.cornell.edu
